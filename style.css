@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ragelis media */
+
+@media (max-width: 425px) {
+
+    .logotop {
+        height: 10vh;
+        background-image: url(./img/MicrosoftTeams-logo.png);
+        background-size: 80vw;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+
+    body {
+        background-image: url(./img/MicrosoftTeams-phone.png);
+        background-size: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .topictwo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 10vh;
+    }
+
+    form {
+        display: flex;
+        flex-flow: column;
+    }
+
+    input, textarea, ::placeholder {
+        font-weight: bold;
+        width: 80%;
+        background: none;
+        border-bottom: black;
+        color: black;
+    }
+
+}
+

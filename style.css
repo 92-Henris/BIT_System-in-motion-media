@@ -12,31 +12,54 @@
 @media (max-width: 425px) {
 
     .logotop {
-        height: 10vh;
+        height: 15vh;
         background-image: url(./img/MicrosoftTeams-logo.png);
+        background-position: center;
+        background-position-y: 15px;
         background-size: 80vw;
         background-repeat: no-repeat;
         object-fit: cover;
-        margin-left: 10%;
-        margin-top: 5%;
     }
 
 
     body {
-        background-image: url(./img/MicrosoftTeams-phone.png);
-        background-size: 100%;
-        background-size: 100%;
+        background-image: url("./img/MicrosoftTeams-phone.png");
+        height: 100vh;
+        width: 100vw;
         background-repeat: no-repeat;
-        object-fit: cover;
+        background-size: cover;
     }
 
     h1 {
         text-align: center;
+        font-size: 1.5rem;
+        padding-left: 8%;
+        padding-right: 8%;
+        margin-top: 10%;
+    }
+
+    h2 {
+        margin-top: 5%;
     }
 
     h3 {
         text-align: center;
+        font-size: 1rem;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 5%;
     }
+
+
+    .formar {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin-top: 15%;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+
 
     .topictwo {
         display: flex;
@@ -46,17 +69,49 @@
         height: 10vh;
     }
 
-    form {
-        display: flex;
-        flex-flow: column;
-    }
+    
 
     input, textarea, ::placeholder {
+        border: hidden;
         font-weight: bold;
         width: 80%;
         background: none;
-        border-bottom: black;
         color: black;
+        font-size: 0.6rem;
+    }
+
+    label {
+        border-bottom: 1px solid black;
+        margin-bottom: 5%;
+        padding-bottom: 4%;
+    }
+
+    ::placeholder {
+        padding-bottom: 10%;
+    }
+
+    .spaustukas {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .migtukas {
+        height: 6vh;
+        border: 1px solid black;
+        font-size: 1rem;
+    }
+
+    .skaidrus {
+        width: 100vw;
+        height: 85vh;
+        background-color: white;
+        opacity: 30%;
+        position: absolute;
+        bottom: 0px;
+        z-index: -2;
     }
 
 }
